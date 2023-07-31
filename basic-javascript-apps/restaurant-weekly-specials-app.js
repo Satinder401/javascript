@@ -7,9 +7,9 @@ var day;
 //day = "Monday"; //expected result: "Chili Lime Tacos"
 //day = "Tuesday"; //expected result: "Cauliflower Pizza"
 //day = "Wednesday"; //expected result: "Hawaiian Hot Dogs"
-day = "Thursday"; //expected result: "Grilled Beet Burger"
+//day = "Thursday"; //expected result: "Grilled Beet Burger"
 //day = "Friday"; //expected result: "Sweet Potato Curry Falafel"
-//day = "Saturday"; //expected result: "No daily special today."
+day = "Saturday"; //expected result: "No daily special today."
 //day = "Sunday"; //expected result: "No daily special today."
 
 switch(day){
@@ -31,10 +31,6 @@ switch(day){
 
   case 'Friday':
   console.log("Sweet Potato Curry Falafel");
-  break;
-
-  case 'Saturday':
-  console.log("No daily special today.");
   break;
 
   default:
