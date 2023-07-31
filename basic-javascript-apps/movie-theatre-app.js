@@ -17,7 +17,7 @@ var movieClubMember = false;
  } else if (customerAge >= 14 && customerAge <= 24){
      console.log("$6");
  } else if (customerAge <= 13){
-     console.log("5");
+     console.log("$5");
  } else {
      console.log("Invalid input.");
  }
